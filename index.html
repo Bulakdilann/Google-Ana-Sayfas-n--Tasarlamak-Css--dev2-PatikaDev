@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <style>
+        .img-center ,footer{
+            text-align: center;
+        }
+        section input {
+            width: 300px;
+        }
+
+        .first-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            background-color: #EEEEEE;
+
+
+
+        }
+
+        .yan-divler {
+            display: flex;
+            background-color: white;
+            font-size: 15px;
+
+        }
+
+        .yan-divler>div {
+            background-color: rgb(145, 250, 250);
+            width: 440px;
+            margin: 5px;
+
+            text-align: center;
+        }
+
+        #son-div-renk {
+            background-color: rgb(53, 238, 238);
+        }
+
+        a ,p{
+            display: block
+        }
+    </style>
+</head>
+
+<body>
+    <article class="img-center">
+        <img src="images/google.jpg" alt="">
+    </article>
+    <form action="">
+        <section class="first-div">
+            <div>
+                <p>Search the web using Google!</p>
+            </div>
+            <div>
+                <input type="text">
+            </div>
+            <div>
+                <button>Google Search</button>
+                <button>I'm feeling lucky</button>
+            </div>
+        </section>
+
+        <div class="yan-divler">
+            <div>
+                <p>Special Searches</p>
+                <a href="#">Stanford Search</a>
+                <a href="#">Linux Search</a>
+            </div>
+
+            <div>
+                <a href="#">Help!</a>
+                <a href="#">About Google!</a>
+                <a href="#">Company Info</a>
+                <a href="#">Google! Logos</a>
+            </div>
+            <div id="son-div-renk">
+                <p>Get Google! <br>updates monthly:</p>
+
+                <input type="text" placeholder="your e-mail">
+
+                <button>Subscribe</button>
+                <a href="#">Archive</a>
+            </div>
+        </div>
+    </form>
+
+    <footer>
+        <p>Copyright ©1998 Google Inc.</p>
+    </footer>
+</body>
+
+</html>
